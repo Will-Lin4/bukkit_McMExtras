@@ -1,0 +1,20 @@
+# Welcome to the McMMOExtras configuration file!
+
+Experience Bar:
+    Format: '@skill (Level @level)'
+    Seconds until disappear: 15
+    Color:
+        MINING: '3'
+        WOODCUTTING: 'a'
+        HERBALISM: '2'
+        EXCAVATION: '6'
+        FISHING: '1'
+        UNARMED: 'd'
+        SWORDS: 'c'
+        TAMING: 'f'
+        ARCHERY: '5'
+        AXES: '4'
+        REPAIR: 'd'
+        ACROBATICS: 'c'
+        SMELTING: '7'
+        ALCHEMY: '9'

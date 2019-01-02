@@ -1,0 +1,21 @@
+name: McMExtras
+author: Xeroun
+main: me.Xeroun.McMExtras.McMExtras
+version: 2.0
+softdepend: [mcMMO]
+commands:
+    mcme:
+        usage: /mcme (args)
+        description: Base Command for the plugin
+    expbar:
+        usage: /xpbar (args)
+        description: Base Command for the plugin
+permissions:
+    mcme.*:
+        description: Gives all access to the plugin
+        default: op
+        children:
+            mcme.expbar: true
+    mcme.expbar:
+        description: Allows players to see the exp bar
+        default: false
